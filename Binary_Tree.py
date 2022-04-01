@@ -4,7 +4,7 @@ import Tree
 # Tree object
 tree = Tree.Trees()
 
-for i in range(15):
+for i in range(2):
     tree.addValue(random.randint(1, 100))
 
 tree.traverse()
